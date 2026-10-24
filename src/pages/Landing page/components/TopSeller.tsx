@@ -1,0 +1,72 @@
+import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+import SellerCard from "./SellerCard";
+import { images } from "../../../assets/images";
+
+export default function TopSeller() {
+  const { t, i18n } = useTranslation();
+  const isArabic: boolean = i18n.language === "ar";
+  const containerVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 1,
+        staggerChildren: 0.3,
+      },
+    },
+  };
+
+  return (
+    <motion.section
+      variants={containerVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.2 }}
+      className="w-full min-h-[120vh] bg-gradient-to-b from-amber-100 dark:from-neutral-800 to-amber-200 dark:to-neutral-900 flex flex-col justify-center items-center gap-16 py-20 px-4 lg:px-24 overflow-hidden"
+    >
+      {/* Title */}
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+        className="text-center flex flex-col justify-center items-center gap-4"
+      >
+        <h1
+          className={`${
+            isArabic ? "aref-ruqaa-regular" : "tangerine-regular"
+          } text-amber-900 dark:text-amber-400 text-6xl md:text-7xl font-bold drop-shadow-sm`}
+        >
+          {t("seller_title")}
+        </h1>
+        <h2 className="text-gray-800 dark:text-gray-100 text-3xl md:text-5xl font-extrabold tracking-wide">
+          {t("seller_sec")}
+        </h2>
+      </motion.div>
+
+      {/* Cards */}
+      <motion.div
+        variants={containerVariants}
+        className="w-full flex flex-col lg:flex-row justify-between items-center gap-10"
+      >
+        <SellerCard
+          imgSrc={images.spanish_latte}
+          text01={t("seller_01")}
+          // text02="A brief description for each product."
+        />
+        <SellerCard
+          imgSrc={images.Lumin_Mojito}
+          text01={t("seller_02")}
+          // text02="A brief description for each product."
+        />
+        <SellerCard
+          imgSrc={images.galaxy_cake}
+          text01={t("seller_03")}
+          // text02="A brief description for each product."
+        />
+      </motion.div>
+    </motion.section>
+  );
+}
