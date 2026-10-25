@@ -30,7 +30,7 @@ import white_mocha_hot from "./images/white_mocha_hot.png"; // done
 import mocha_hot from "./images/mocha_hot.jpg"; // done
 import americano from "./images/americano.png"; // done
 // import piccato from "./images/Piccato.jpg"; // done
-// import coffee_v60 from "./images/coffee_v60.png"; // done
+import coffee_v60 from "./images/coffee_v60.png"; // done
 import zaafran from "./images/Zaafran.jpg"; // done
 // import blue_latte_hot from "./images/blue_latte_hot.jpg"; // done
 import sahlab from "./images/sahlab.jpg"; // done
@@ -74,6 +74,18 @@ import arabic_coffee from "./images/arabic_coffee.jpeg";
 import karak_tea from "./images/karak_tea.jpeg";
 import turkish_coffee from "./images/turkish_coffee.jpeg";
 import coffee_day from "./images/coffee_day.jpg";
+import ice_matcha from "./images/ice_matcha.jpg";
+import alfredo from "./images/alfredo.jpg";
+import avocado from "./images/avocado.jpeg";
+import ice_caramel_latte from "./images/ice_caramel_latte.jpeg";
+import oreo_milkshake from "./images/oreo_milkshake.jpg";
+import vanilla_milkshake from "./images/vanilla_milkshake.jpeg";
+import strawberry_milkshake from "./images/strawberry_milkshake.jpeg";
+import chocolate_milkshake from "./images/chocolate_milkshake.jpeg";
+import blueberry from "./images/blueberry.jpeg";
+import raspberry from "./images/raspberry.jpg";
+import fajita from "./images/fajita.jpeg";
+import fruit_salad from "./images/fruit_salad.jpeg";
 
 export const images = {
   logo,
@@ -128,7 +140,7 @@ export const images = {
   mocha_hot,
   americano,
   // piccato,
-  // coffee_v60,
+  coffee_v60,
   zaafran,
   // blue_latte_hot,
   sahlab,
@@ -172,4 +184,16 @@ export const images = {
   karak_tea,
   turkish_coffee,
   coffee_day,
+  ice_matcha,
+  alfredo,
+  avocado,
+  ice_caramel_latte,
+  oreo_milkshake,
+  vanilla_milkshake,
+  strawberry_milkshake,
+  chocolate_milkshake,
+  blueberry,
+  raspberry,
+  fajita,
+  fruit_salad,
 };
