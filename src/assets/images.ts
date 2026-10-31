@@ -1,5 +1,6 @@
 import logo from "./images/logo.png"; // done
 import hero from "./images/hero.jpg"; // done
+import desserts from "./images/desserts.jpg"; // done
 import heroIcon from "./images/hero-icon.png"; // done
 import discover from "./images/discover.jpg"; // done
 import menuHero from "./images/menuHero.jpg"; // done
@@ -86,10 +87,16 @@ import blueberry from "./images/blueberry.jpeg";
 import raspberry from "./images/raspberry.jpg";
 import fajita from "./images/fajita.jpeg";
 import fruit_salad from "./images/fruit_salad.jpeg";
+import hallomi from "./images/hallomi.jpg";
+import tuna from "./images/tuna.jpg";
+import chicken_ceaser from "./images/chicken_ceaser.jpg";
+import dynamite from "./images/dynamite.jpg";
+import mix_cheese from "./images/mix_cheese.jpg";
 
 export const images = {
   logo,
   hero,
+  desserts,
   heroIcon,
   discover,
   sliderImages: [
@@ -196,4 +203,9 @@ export const images = {
   raspberry,
   fajita,
   fruit_salad,
+  hallomi,
+  tuna,
+  chicken_ceaser,
+  dynamite,
+  mix_cheese,
 };
