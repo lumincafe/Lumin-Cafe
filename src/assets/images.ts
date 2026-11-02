@@ -1,9 +1,16 @@
 import logo from "./images/logo.png"; // done
 import hero from "./images/hero.jpg"; // done
+import iced_coffee from "./images/iced_coffee.jpg"; // done
+import mojitos from "./images/mojitos.jpg"; // done
+import hot_drinks from "./images/hot_drinks.jpg"; // done
 import desserts from "./images/desserts.jpg"; // done
+import ice_cream from "./images/ice_cream.jpg"; // done
+import salad_sandwiches from "./images/salad_sandwiches.jpg"; // done
+import juice from "./images/juice.jpg"; // done
 import heroIcon from "./images/hero-icon.png"; // done
 import discover from "./images/discover.jpg"; // done
 import menuHero from "./images/menuHero.jpg"; // done
+import menu_hero from "./images/menu_hero.jpg"; // done
 import aboutHeader from "./images/aboutHeader.JPG"; // done
 import about_vid from "./images/about_vid.mp4"; // done
 import iced_americano from "./images/iced_americano.png"; // done
@@ -18,7 +25,7 @@ import saffron_latte from "./images/saffron_latte.png"; // done
 import Lumin_Mojito from "./images/Lumin_Mojito.png"; // done
 import special_redbull from "./images/special_redbull.png"; // done
 import refresh from "./images/refresh.png"; // done
-import Hibiscus from "./images/Hibiscus.png"; // done
+import Hibiscus from "./images/hibiscus.png"; // done
 import havana from "./images/havana.png"; // done
 import smoke from "./images/smoke.png"; // done
 import espresso from "./images/Espresso.jpg"; // done
@@ -50,7 +57,7 @@ import san_sebstian from "./images/san_sebestian.JPG"; // done
 import french_toast from "./images/frensh_toast.JPG"; // done
 import peanut_ice_cream from "./images/peanut_ice_cream.jpg"; // done
 import mango_ice_cream from "./images/mango_ice_cream.jpg"; // done
-import cheese_cake_lotus from "./images/cheese_cake_lotus.jpg";
+import cheese_cake_lotus from "./images/cheese_cake_lotus.JPG";
 import donuts from "./images/donuts.JPG";
 import pancake from "./images/pancake.jpeg";
 import muffin_cake from "./images/muffin_cake.jpg";
@@ -87,16 +94,37 @@ import blueberry from "./images/blueberry.jpeg";
 import raspberry from "./images/raspberry.jpg";
 import fajita from "./images/fajita.jpeg";
 import fruit_salad from "./images/fruit_salad.jpeg";
-import hallomi from "./images/hallomi.jpg";
+import hallomi from "./images/hallomi.jpeg";
 import tuna from "./images/tuna.jpg";
 import chicken_ceaser from "./images/chicken_ceaser.jpg";
 import dynamite from "./images/dynamite.jpg";
 import mix_cheese from "./images/mix_cheese.jpg";
+import orange from "./images/orange.jpg";
+import orange_carrot from "./images/orange_carrot.jpg";
+import mango from "./images/mango.jpg";
+import pineapple from "./images/pineapple.jpg";
+import watermelon from "./images/watermelon.jpg";
+import strawberry from "./images/strawberry.jpg";
+import lemon from "./images/lemon.jpg";
+import lemon_mint from "./images/lemon_mint.jpg";
+import awar_qalb from "./images/awar_qalb.jpg";
+import florida from "./images/florida.jpeg";
+import banana_milk from "./images/banana_milk.jpg";
+import avocado_honey from "./images/avocado_honey.jpg";
+import apple from "./images/apple.jpg";
+import apple_ginger from "./images/apple_ginger.jpg";
+import cocktail from "./images/cocktail.jpg";
 
 export const images = {
   logo,
   hero,
+  iced_coffee,
+  mojitos,
+  hot_drinks,
   desserts,
+  ice_cream,
+  salad_sandwiches,
+  juice,
   heroIcon,
   discover,
   sliderImages: [
@@ -120,6 +148,7 @@ export const images = {
     espresso,
   ],
   menuHero,
+  menu_hero,
   aboutHeader,
   about_vid,
   iced_americano,
@@ -208,4 +237,19 @@ export const images = {
   chicken_ceaser,
   dynamite,
   mix_cheese,
+  orange,
+  orange_carrot,
+  mango,
+  pineapple,
+  watermelon,
+  strawberry,
+  lemon,
+  lemon_mint,
+  awar_qalb,
+  florida,
+  banana_milk,
+  avocado_honey,
+  apple,
+  apple_ginger,
+  cocktail,
 };

@@ -24,6 +24,7 @@ export default function ContactCard({ title, value, icon: Icon }: Props) {
         <p className="text-sm lg:text-2xl font-bold text-gray-700 dark:text-gray-300">{title}</p>
       </motion.div>
       <motion.h3
+        dir={/^[+\d]|@/.test(value) ? "ltr" : undefined}
         className="text-sm lg:text-2xl font-bold text-gray-900 dark:text-white"
         initial={{ opacity: 0, x: 60 }}
         whileInView={{ opacity: 1, x: 0 }}

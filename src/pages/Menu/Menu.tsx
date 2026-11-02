@@ -23,7 +23,7 @@ export default function Menu() {
         transition={{ duration: 1.2, ease: ["easeOut"] }}
       >
         <motion.img
-          src={images.menuHero}
+          src={images.menu_hero}
           alt="Hero Background"
           className="w-full h-full object-cover"
           initial={{ scale: 1.2, opacity: 0 }}

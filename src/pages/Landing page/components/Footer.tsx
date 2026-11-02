@@ -25,7 +25,9 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-2.5">
             <IoCall className="text-[#DAB67B]" />
-            <p className="text-[#DAB67B] hover:underline transition-all duration-100 cursor-pointer">
+            <p
+              dir="ltr" 
+              className="text-[#DAB67B] hover:underline transition-all duration-100 cursor-pointer">
               +966548010223
             </p>
           </div>
@@ -40,34 +42,50 @@ export default function Footer() {
         <LocationCard/>
       </div>
       {/* lower section */}
-      <div className="w-full border-t-2 border-dotted border-gray-400 flex flex-col lg:flex-row justify-between pt-2">
-        <div className="flex items-center justify-center gap-2.5">
-          <p className="text-sm text-gray-400">
-            Follow Us :
-          </p>
-          <Link
+      <div
+        dir="ltr"
+        className="w-full mt-4 pt-4 border-t-2 border-dotted border-gray-400 flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-4 text-center"
+      >
+        {/* social links */}
+        <div className="flex items-center justify-center gap-3">
+          <p className="text-sm text-gray-400">Follow Us :</p>
+          <a
+            href="https://www.tiktok.com/@lumin.cafe?_t=ZS-90tZzw6I02x&_r=1"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="TikTok"
-            target="_blank"
-            to={"https://www.tiktok.com/@lumin.cafe?_t=ZS-90tZzw6I02x&_r=1"}
           >
-            <AiFillTikTok className="text-2xl text-gray-200"/>
-          </Link>
-          <Link
+            <AiFillTikTok className="text-2xl text-gray-200 hover:text-[#DAB67B] transition-colors duration-200" />
+          </a>
+          <a
+            href="https://www.instagram.com/lumin.cafe/"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Instagram"
-            target="_blank"
-            to={"https://www.instagram.com/lumin.cafe/"}
           >
-            <FaSquareInstagram className="text-2xl text-gray-200"/>
-          </Link>
-          <Link
+            <FaSquareInstagram className="text-2xl text-gray-200 hover:text-[#DAB67B] transition-colors duration-200" />
+          </a>
+          <a
+            href="https://www.snapchat.com/add/lumincafe?share_id=haC0gbJVXac&locale=ar-SA-u-nu-latn"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Snapchat"
-            target="_blank"
-            to={"https://www.snapchat.com/add/lumincafe?share_id=haC0gbJVXac&locale=ar-SA-u-nu-latn"}
           >
-            <FaSnapchatGhost className="text-2xl text-gray-200"/>
-          </Link>
+            <FaSnapchatGhost className="text-2xl text-gray-200 hover:text-[#DAB67B] transition-colors duration-200" />
+          </a>
         </div>
-        <p className="text-sm text-gray-400">كافيه لومين & لاونج - <span className="text-sm text-amber-400">LUMIN CAFE & LOUNGE</span></p>
+
+        {/* credits */}
+        <div className="flex flex-col items-center lg:items-end gap-1">
+          <p className="text-sm text-gray-400">
+            <span className="text-amber-400">LUMIN CAFE &amp; LOUNGE</span>
+            {" - "}
+            <span dir="rtl">كافيه لومين &amp; لاونج</span>
+          </p>
+          <p className="text-sm text-gray-400">
+            Updated By : <span className="text-amber-400">Ahmed Aburia</span>
+          </p>
+        </div>
       </div>
     </footer>
   );

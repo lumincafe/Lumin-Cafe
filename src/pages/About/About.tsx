@@ -92,7 +92,9 @@ export default function About() {
                   : "For reservations or inquiries:"}
               </p>
               <IoCall className="text-[#DAB67B]" />
-              <p className="text-[#DAB67B] hover:underline transition-all duration-100 cursor-pointer">
+              <p 
+                dir="ltr"
+                className="text-[#DAB67B] hover:underline transition-all duration-100 cursor-pointer">
                 +966548010223
               </p>
             </div>
