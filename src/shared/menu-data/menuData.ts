@@ -176,7 +176,7 @@ export const menuData: Category[] = [
         id: 24,
         titleEn: "Hibiscus",
         titleAr: "كركديه",
-        img: images.Hibiscus,
+        img: images.hibiscus,
         price: "12",
       },
       {
