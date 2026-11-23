@@ -25,7 +25,7 @@ import saffron_latte from "./images/saffron_latte.png"; // done
 import Lumin_Mojito from "./images/Lumin_Mojito.png"; // done
 import special_redbull from "./images/special_redbull.png"; // done
 import refresh from "./images/refresh.png"; // done
-import Hibiscus from "./images/hibiscus.png"; // done
+import hibiscus from "./images/hibiscus.png"; // done
 import havana from "./images/havana.png"; // done
 import smoke from "./images/smoke.png"; // done
 import espresso from "./images/Espresso.jpg"; // done
@@ -142,7 +142,7 @@ export const images = {
     Lumin_Mojito,
     special_redbull,
     refresh,
-    Hibiscus,
+    hibiscus,
     havana,
     smoke,
     espresso,
@@ -163,7 +163,7 @@ export const images = {
   Lumin_Mojito,
   special_redbull,
   refresh,
-  Hibiscus,
+  hibiscus,
   havana,
   smoke,
   espresso,
