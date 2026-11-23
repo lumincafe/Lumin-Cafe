@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "../../pages/Landing page/Home";
 import { ScrollToTop } from "../components/ScrollToTop";
 
@@ -12,7 +12,7 @@ const SingleCategory = lazy(() => import("../../pages/Menu/components/SingleCate
 export default function AllRoutes() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <ScrollToTop />
         <Suspense fallback={null}>
           <Routes>
@@ -24,7 +24,7 @@ export default function AllRoutes() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Suspense>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
