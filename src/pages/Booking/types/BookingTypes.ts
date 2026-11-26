@@ -4,7 +4,7 @@ export interface BookingFormValues {
   email?: string;
   date: string;
   time: string;
-  geusts: number;
+  guests: number;
 }
 
 

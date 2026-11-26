@@ -55,10 +55,10 @@ export const Step1Schema = Yup.object({
         return diffInHours >= 2;
       }
     ),
-  geusts: Yup.number()
-    .min(1, "Minimum number of geusts is 1")
-    .max(20, "Maximum number of geusts is 20")
-    .required("Geusts number is required to continue"),
+  guests: Yup.number()
+    .min(1, "Minimum number of guests is 1")
+    .max(20, "Maximum number of guests is 20")
+    .required("Guests number is required to continue"),
 });
 
 export const Step2Schema = Yup.object({

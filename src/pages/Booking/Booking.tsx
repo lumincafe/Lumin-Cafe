@@ -18,7 +18,7 @@ type Step = 1 | 2 | 3 | 4;
 interface FormValues {
   date: string;
   time: string;
-  geusts: number;
+  guests: number;
   name: string;
   phone: string;
   email?: string;
@@ -45,7 +45,7 @@ export default function Booking() {
 
     const message = encodeURIComponent(
       `📅 Date: ${data.date}\n 🕒 Time: ${data.time}\n👥 Guests: ${
-        data.geusts
+        data.guests
       }\n🪑 Seating: ${data.seating}\n👤 Name: ${data.name}\n📞 Phone: ${
         data.phone
       }\n${data.email ? `📧 Email: ${data.email}\n` : ""}${
@@ -86,7 +86,7 @@ export default function Booking() {
           initialValues={{
             date: "",
             time: "",
-            geusts: 1,
+            guests: 1,
             name: "",
             phone: "",
             email: "",

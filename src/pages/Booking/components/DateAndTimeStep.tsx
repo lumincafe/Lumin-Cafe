@@ -38,10 +38,10 @@ export default function DateAndTimeStep({ isSubmitting }: Props) {
         <Field
           className="w-full border border-gray-400 p-2 rounded-2xl"
           type="number"
-          name="geusts"
+          name="guests"
         />
         <ErrorMessage
-          name="geusts"
+          name="guests"
           component="p"
           className="text-red-500 text-sm"
         />
